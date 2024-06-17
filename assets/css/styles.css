@@ -576,6 +576,7 @@ body.light-theme {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 0.25rem;
+  text-align: center;
 }
 
 .work__button {
@@ -890,18 +891,6 @@ body.light-theme {
   .nav__link:hover {
     color: var(--first-color);
   }
-
-  /* First design, remove if you choose the minimalist design */
-  /* .active-link::before {
-    content: "";
-    position: absolute;
-    bottom: -0.75rem;
-    width: 4px;
-    height: 4px;
-    background-color: var(--first-color);
-    border-radius: 50%;
-  } */
-
   /* Minimalist design */
   .active-link::before {
     bottom: -0.75rem;
